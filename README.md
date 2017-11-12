@@ -25,6 +25,12 @@ overview please visit the official project page:
 
 ## Setup
 
+## CHANGES for TESTING PURPOSES
+
+* [demo]https://jshop2.herokuapp.com/#/search?q=%3Ci%20style%3D'color:red'%3ENothing%20to%20see%20here!%3C%2Fi%3E%3Cscript%3Ealert('bad%20news')
+* [view changes](https://github.com/codingoutloud/juice-shop/blob/master/app/views/SearchResult.html)
+* [controller changes](https://github.com/codingoutloud/juice-shop/blob/master/app/js/controllers/SearchResultController.js)
+
 ### Deploy on Heroku (free ($0/month) dyno)
 
 1. Click the button below and follow the instructions
