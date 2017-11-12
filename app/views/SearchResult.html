@@ -1,7 +1,24 @@
 <div class="row">
     <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-        <h3 ng-show="searchQuery" class="page-header page-header-sm"><span translate="TITLE_SEARCH_RESULTS"></span> <span class="label label-default" ng-bind-html="searchQuery"></span></h3>
-        <h3 ng-show="searchQuery" class="page-header page-header-sm"><span translate="TITLE_SEARCH_RESULTS"></span> <span class="label label-default" ng-bind-html="searchQuery"></span></h3>
+        <!-- original -->
+        <h3 ng-show="searchQuery" class="page-header page-header-sm">
+            <span translate="TITLE_SEARCH_RESULTS"></span> 
+            <span class="label label-default" ng-bind-html="searchQuery"></span></h3>
+        
+        <!-- ng-bind-html => ng-bind -->
+        <h3 ng-show="searchQuery" class="page-header page-header-sm">
+            <span translate="TITLE_SEARCH_RESULTS"></span> 
+            <span class="label label-default" ng-bind="searchQuery"></span></h3>
+        
+        <!--  -->
+        <h3 ng-show="searchQuery" class="page-header page-header-sm">
+            <span translate="TITLE_SEARCH_RESULTS"></span> 
+            <span class="label label-default" ng-bind-html="searchQuery"></span></h3>
+
+        <!--  -->
+        <h3 ng-show="searchQuery" class="page-header page-header-sm">
+            <span translate="TITLE_SEARCH_RESULTS"></span> 
+            <span class="label label-default" ng-bind-html="searchQuery"></span></h3>
         
         <h3 ng-show="!searchQuery" class="page-header page-header-sm" translate="TITLE_ALL_PRODUCTS"></h3>
 
