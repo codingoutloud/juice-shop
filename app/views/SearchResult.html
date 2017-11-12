@@ -9,17 +9,17 @@
         <h3 ng-show="searchQuery" class="page-header page-header-sm">
             <span translate="TITLE_SEARCH_RESULTS"></span> 
             <span class="label label-default" ng-bind="searchQuery"></span></h3>
-        
-        <!--  -->
-        <h3 ng-show="searchQuery" class="page-header page-header-sm">
-            <span translate="TITLE_SEARCH_RESULTS"></span> 
-            <span class="label label-default" ng-bind-html="searchQuery"></span></h3>
 
-        <!--  -->
+        <!-- original with searchQuery2 -->
         <h3 ng-show="searchQuery" class="page-header page-header-sm">
             <span translate="TITLE_SEARCH_RESULTS"></span> 
-            <span class="label label-default" ng-bind-html="searchQuery"></span></h3>
+            <span class="label label-default" ng-bind-html="searchQuery2"></span></h3>
         
+        <!-- ng-bind-html => ng-bind with searchQuery2 -->
+        <h3 ng-show="searchQuery" class="page-header page-header-sm">
+            <span translate="TITLE_SEARCH_RESULTS"></span> 
+            <span class="label label-default" ng-bind="searchQuery2"></span></h3>
+
         <h3 ng-show="!searchQuery" class="page-header page-header-sm" translate="TITLE_ALL_PRODUCTS"></h3>
 
         <div class="alert-info" ng-show="confirmation">
