@@ -27,7 +27,9 @@ overview please visit the official project page:
 
 ## CHANGES for TESTING PURPOSES
 
-* [demo]https://jshop2.herokuapp.com/#/search?q=%3Ci%20style%3D'color:red'%3ENothing%20to%20see%20here!%3C%2Fi%3E%3Cscript%3Ealert('bad%20news')
+* [echo demo](https://jshop2.herokuapp.com/#/search?q=juice%20search)
+* [font demo](https://jshop2.herokuapp.com/#/search?q=<i style='color:red'>juice%20search</i>)
+* [exploit demo (%3Ci%20style%3D'color:red'%3ENothing%20to%20see%20here!%3C%2Fi%3E%3Cscript%3Ealert('bad%20news');alert(document.cookie)](https://jshop2.herokuapp.com/#/search?q=%3Ci%20style%3D'color:red'%3ENothing%20to%20see%20here!%3C%2Fi%3E%3Cscript%3Ealert('click%20%20if%20you%20want%20a%20cookie');alert(document.cookie))
 * [view changes](https://github.com/codingoutloud/juice-shop/blob/master/app/views/SearchResult.html)
 * [controller changes](https://github.com/codingoutloud/juice-shop/blob/master/app/js/controllers/SearchResultController.js)
 
